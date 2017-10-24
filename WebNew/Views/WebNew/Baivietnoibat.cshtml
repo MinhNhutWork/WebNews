@@ -1,0 +1,13 @@
+﻿@model IEnumerable<WebNew.Models.BaiViet>
+
+@foreach (var bv in Model)
+{
+
+<li>
+    <div class="media">
+        <a href="@Url.Action("Details","WebNew",new { id = bv.MaBaiviet })" class="media-left"> <img alt="" src="~/images/@bv.HinhAnh"> </a>
+        <div class="media-body"> <a href="@Url.Action("Details","WebNew",new { id = bv.MaBaiviet })" class="catg_title">@bv.TieuDe</a> </div>
+    </div>
+</li>
+
+}

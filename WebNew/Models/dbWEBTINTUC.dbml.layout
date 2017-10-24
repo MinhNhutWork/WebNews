@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dbWEBTINTUC">
+  <DataContextMoniker Name="/dbWEBTINTUCDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9a318254-2e78-41df-9d39-1fa601311e4e" absoluteBounds="3.5, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/dbWEBTINTUCDataContext/BaiViet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1c9a4813-77c7-454d-9ea6-4a9f8f57f79a" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3de9638c-0beb-42d4-af68-04a87fa3ffe3" absoluteBounds="3.5, 5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/dbWEBTINTUCDataContext/TaiKhoan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c0d4ddc8-5adc-4f26-9161-7545ce90a4f6" absoluteBounds="3.515, 5.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="adfd08c5-731f-49de-8548-17737d58db19" absoluteBounds="6.25, 1.25, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/dbWEBTINTUCDataContext/BinhLuan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e00fd749-98dd-41e9-b1d4-a4662b1cb8c8" absoluteBounds="6.265, 1.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ee046841-6273-4394-af4f-b2ba8fb68aa9" absoluteBounds="0.75, 1.5, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/dbWEBTINTUCDataContext/LoaiBaiViet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c07e67c5-fda0-4346-a56a-fae81faa5024" absoluteBounds="0.765, 1.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 2.13544840494792); (6.25 : 2.13544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbWEBTINTUCDataContext/BaiViet/BaiViet_BinhLuan" />
+      <nodes>
+        <classShapeMoniker Id="9a318254-2e78-41df-9d39-1fa601311e4e" />
+        <classShapeMoniker Id="adfd08c5-731f-49de-8548-17737d58db19" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 6.07774983723958); (7.25 : 6.07774983723958); (7.25 : 3.02089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbWEBTINTUCDataContext/TaiKhoan/TaiKhoan_BinhLuan" />
+      <nodes>
+        <classShapeMoniker Id="3de9638c-0beb-42d4-af68-04a87fa3ffe3" />
+        <classShapeMoniker Id="adfd08c5-731f-49de-8548-17737d58db19" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.09699625651042); (3.5 : 2.09699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbWEBTINTUCDataContext/LoaiBaiViet/LoaiBaiViet_BaiViet" />
+      <nodes>
+        <classShapeMoniker Id="ee046841-6273-4394-af4f-b2ba8fb68aa9" />
+        <classShapeMoniker Id="9a318254-2e78-41df-9d39-1fa601311e4e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
