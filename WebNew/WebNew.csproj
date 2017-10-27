@@ -344,6 +344,7 @@
     <Content Include="Views\WebNew\Thoisu1.cshtml" />
     <Content Include="Views\WebNew\Thethao.cshtml" />
     <Content Include="Views\WebNew\Thethao1.cshtml" />
+    <Content Include="Views\Shared\_LayoutTopic.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
