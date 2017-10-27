@@ -47,16 +47,11 @@ namespace WebNew.Controllers
             return View(bv.Single());
         }
 
-        public ActionResult Baivietgiaothong()
+        public ActionResult KinhTe()
         {
             var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV==1).Take(4).ToList();
             return PartialView(lbv);
-        }
-        public ActionResult Baivietgiaothong1()
-        {
-            var lbv = data.BaiViets.OrderByDescending(a => a.NgayDang).Take(1).ToList();
-            return PartialView(lbv);
-        }
+        }        
         public ActionResult Congnghe()
         {
             var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV==2).Take(4).ToList();
@@ -67,19 +62,9 @@ namespace WebNew.Controllers
             var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 3).Take(1).ToList();
             return PartialView(lbv);
         }
-        public ActionResult Thoisu1()
-        {
-            var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 3).Take(4).ToList();
-            return PartialView(lbv);
-        }
         public ActionResult Thethao()
         {
             var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 4).Take(1).ToList();
-            return PartialView(lbv);
-        }
-        public ActionResult Thethao1()
-        {
-            var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 4).Take(4).ToList();
             return PartialView(lbv);
         }
     }

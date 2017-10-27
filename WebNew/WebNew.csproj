@@ -252,6 +252,7 @@
     <Content Include="images\anh77.png" />
     <Content Include="images\anh8.jpg" />
     <Content Include="images\anh9.jpg" />
+    <Content Include="images\logo.png" />
     <Content Include="images\thuoc.jpg" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
@@ -337,7 +338,7 @@
     <Content Include="Views\WebNew\Baivietnoibat.cshtml" />
     <Content Include="Views\WebNew\BVTheoLoai.cshtml" />
     <Content Include="Views\WebNew\Details.cshtml" />
-    <Content Include="Views\WebNew\Baivietgiaothong.cshtml" />
+    <Content Include="Views\WebNew\KinhTe.cshtml" />
     <Content Include="Views\WebNew\Baivietgiaothong1.cshtml" />
     <Content Include="Views\WebNew\Congnghe.cshtml" />
     <Content Include="Views\WebNew\Thoisu.cshtml" />
