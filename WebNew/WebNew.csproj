@@ -244,7 +244,6 @@
     <Content Include="images\anh19.jpg" />
     <Content Include="images\anh2.jpg" />
     <Content Include="images\anh20.jpg" />
-    <Content Include="images\anh21.jpg" />
     <Content Include="images\anh3.jpg" />
     <Content Include="images\anh4.jpg" />
     <Content Include="images\anh5.jpg" />
@@ -340,11 +339,13 @@
     <Content Include="Views\WebNew\BVTheoLoai.cshtml" />
     <Content Include="Views\WebNew\Details.cshtml" />
     <Content Include="Views\WebNew\KinhTe.cshtml" />
+    <Content Include="Views\WebNew\Baivietgiaothong1.cshtml" />
     <Content Include="Views\WebNew\Congnghe.cshtml" />
     <Content Include="Views\WebNew\Thoisu.cshtml" />
+    <Content Include="Views\WebNew\Thoisu1.cshtml" />
     <Content Include="Views\WebNew\Thethao.cshtml" />
+    <Content Include="Views\WebNew\Thethao1.cshtml" />
     <Content Include="Views\Shared\_LayoutTopic.cshtml" />
-    <Content Include="Views\WebNew\YTe.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

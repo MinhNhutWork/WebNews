@@ -67,10 +67,5 @@ namespace WebNew.Controllers
             var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 4).Take(1).ToList();
             return PartialView(lbv);
         }
-        public ActionResult YTe()
-        {
-            var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 5).Take(1).ToList();
-            return PartialView(lbv);
-        }
     }
 }
