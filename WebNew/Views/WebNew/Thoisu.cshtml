@@ -2,8 +2,14 @@
 
 @foreach (var bv in Model)
 {
-    <a href="@Url.Action("Details","WebNew",new { id = bv.MaBaiviet })" class="featured_img"> <img alt="" src="~/images/@bv.HinhAnh"> <span class="overlay"></span> </a>
-        <figcaption> <a href="@Url.Action("Details","WebNew",new { id = bv.MaBaiviet })">@bv.TieuDe</a> </figcaption>
+    <a href="@Url.Action("Details","WebNew",new { id = bv.MaBaiviet })" class="featured_img"> <img alt="" src="~/images/@bv.HinhAnh"> @*<span class="overlay"></span>*@ </a>
+    <figcaption> <a href="@Url.Action("Details","WebNew",new { id = bv.MaBaiviet })">@bv.TieuDe</a> </figcaption>
                                         <p>@bv.NoiDungTomtat</p>
 
+    @*<li>
+       <div class="media wow fadeInDown">
+            <a href="@Url.Action("Details","WebNew",new { id = bv.MaBaiviet })" class="media-left"> <img alt="" src="~/images/@bv.HinhAnh"> </a>
+            <div class="media-body"> <a href="@Url.Action("Details","WebNew",new { id = bv.MaBaiviet })" class="catg_title">@bv.TieuDe</a> </div>
+       </div>
+    </li>*@
 }
