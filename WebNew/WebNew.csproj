@@ -233,8 +233,13 @@
     <Content Include="Content\Site.css" />
     <Content Include="images\anh1.jpg" />
     <Content Include="images\anh10.jpg" />
-    <Content Include="images\anh11.jpg" />
-    <Content Include="images\anh12.JPG" />
+    <Content Include="images\gt_01.jpg" />
+    <Content Include="images\gt_02.jpg" />
+    <Content Include="images\gt_03.jpg" />
+    <Content Include="images\gt_04.jpg" />
+    <Content Include="images\gt_05.jpg" />
+    <Content Include="images\tt_04.jpg" />
+    <Content Include="images\tt_03.jpg" />
     <Content Include="images\anh13.jpg" />
     <Content Include="images\anh14.jpg" />
     <Content Include="images\anh15.jpg" />
@@ -242,16 +247,22 @@
     <Content Include="images\anh17.jpg" />
     <Content Include="images\anh18.jpg" />
     <Content Include="images\anh19.jpg" />
-    <Content Include="images\anh2.jpg" />
+    <Content Include="images\tt_02.jpg" />
     <Content Include="images\anh20.jpg" />
+    <Content Include="images\sk_05.jpg" />
     <Content Include="images\anh3.jpg" />
-    <Content Include="images\anh4.jpg" />
+    <Content Include="images\tt_01.jpg" />
     <Content Include="images\anh5.jpg" />
     <Content Include="images\anh6.jpg" />
     <Content Include="images\anh7.png" />
     <Content Include="images\anh77.png" />
     <Content Include="images\anh8.jpg" />
     <Content Include="images\anh9.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\sk_01.jpg" />
+    <Content Include="images\sk_02.jpg" />
+    <Content Include="images\sk_03.jpg" />
+    <Content Include="images\sk_04.jpg" />
     <Content Include="images\thuoc.jpg" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
@@ -273,6 +284,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="fonts\Roboto.ttf" />
+    <Content Include="fonts\Times.ttf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\html5shiv.min.js" />
@@ -337,14 +349,18 @@
     <Content Include="Views\WebNew\Baivietnoibat.cshtml" />
     <Content Include="Views\WebNew\BVTheoLoai.cshtml" />
     <Content Include="Views\WebNew\Details.cshtml" />
-    <Content Include="Views\WebNew\Baivietgiaothong.cshtml" />
-    <Content Include="Views\WebNew\Baivietgiaothong1.cshtml" />
+    <Content Include="Views\WebNew\Kinhte.cshtml" />
+    <Content Include="Views\WebNew\Kinhte1.cshtml" />
     <Content Include="Views\WebNew\Congnghe.cshtml" />
     <Content Include="Views\WebNew\Thoisu.cshtml" />
     <Content Include="Views\WebNew\Thoisu1.cshtml" />
     <Content Include="Views\WebNew\Thethao.cshtml" />
     <Content Include="Views\WebNew\Thethao1.cshtml" />
     <Content Include="Views\Shared\_LayoutTopic.cshtml" />
+    <Content Include="Views\WebNew\Suckhoe.cshtml" />
+    <Content Include="Views\WebNew\Suckhoe1.cshtml" />
+    <Content Include="Views\WebNew\Giaitri.cshtml" />
+    <Content Include="Views\WebNew\Giaitri1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

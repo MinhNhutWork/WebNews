@@ -3,6 +3,6 @@
 @font-face{font-family:"Varela"; font-style:normal; font-weight:400; src:local("Varela"),url("../fonts/Varela-400.woff") format("woff")}
 @font-face{font-family:"Open Sans"; font-style:normal; font-weight:400; src:local("Open Sans"),local("OpenSans"),url("../fonts/OpenSans-400.woff") format("woff")}
     */
-@font-face{font-family:"Oswald"; font-style:normal; font-weight:400; src:local("Oswald Regular"),local("Oswald-Regular"),url("../fonts/Roboto.ttf") format("ttf")}
-@font-face{font-family:"Varela"; font-style:normal; font-weight:400; src:local("Varela"),url("../fonts/arial.ttf") format("ttf")}
-@font-face{font-family:"Open Sans"; font-style:normal; font-weight:400; src:local("Open Sans"),local("OpenSans"),url("../fonts/Roboto.ttf") format("ttf")}
+@font-face{font-family:"Times New Roman"; font-style:normal; font-weight:400; src:local("Oswald Regular"),local("Oswald-Regular"),url("../fonts/Times.ttf") format("ttf")}
+@font-face{font-family:"Times New Roman"; font-style:normal; font-weight:400; src:local("Varela"),url("../fonts/Times.ttf") format("ttf")}
+@font-face{font-family:"Times New Roman"; font-style:normal; font-weight:400; src:local("Open Sans"),local("OpenSans"),url("../fonts/Times.ttf") format("ttf")}

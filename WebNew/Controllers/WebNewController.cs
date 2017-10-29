@@ -46,13 +46,13 @@ namespace WebNew.Controllers
             var bv = from lb in data.BaiViets where lb.MaBaiviet == id select lb;
             return View(bv.Single());
         }
-
-        public ActionResult Baivietgiaothong()
+        //---------------------- SET ID LOẠI BÀI VIẾT ----------------------------------------------
+        public ActionResult Kinhte()
         {
             var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV==1).Take(4).ToList();
             return PartialView(lbv);
         }
-        public ActionResult Baivietgiaothong1()
+        public ActionResult Kinhte1()
         {
             var lbv = data.BaiViets.OrderByDescending(a => a.NgayDang).Take(1).ToList();
             return PartialView(lbv);
@@ -80,6 +80,27 @@ namespace WebNew.Controllers
         public ActionResult Thethao1()
         {
             var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 4).Take(4).ToList();
+            return PartialView(lbv);
+        }
+
+        public ActionResult Suckhoe()
+        {
+            var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 5).Take(1).ToList();
+            return PartialView(lbv);
+        }
+        public ActionResult Suckhoe1()
+        {
+            var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 5).Take(4).ToList();
+            return PartialView(lbv);
+        }
+        public ActionResult Giaitri()
+        {
+            var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 5).Take(1).ToList();
+            return PartialView(lbv);
+        }
+        public ActionResult Giaitri1()
+        {
+            var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 5).Take(4).ToList();
             return PartialView(lbv);
         }
     }

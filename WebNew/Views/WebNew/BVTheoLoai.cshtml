@@ -11,10 +11,10 @@
     @foreach (var baiviet in Model)
     {
         <div class="col-sm-4 col-md-4 col col-md-4"
-              style="height:400px;width:350px">
-            <div class="thumbnail" style="height:350px;width:330px">
+              style="height:500px;width:350px">
+            <div class="thumbnail" style="height:450px;width:330px">
                 <a href="@Url.Action("Details","WebNew",new { id = baiviet.MaBaiviet })">
-                    <img alt="@baiviet.TieuDe" src="~/images/@baiviet.HinhAnh" width="200" />
+                    <img alt="@baiviet.TieuDe" src="~/images/@baiviet.HinhAnh" width="350" />
                     <div>
                         <br />
                         <h4 style ="font-family : 'Times New Roman'center">
