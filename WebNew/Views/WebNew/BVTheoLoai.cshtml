@@ -17,7 +17,7 @@
                     <img alt="@baiviet.TieuDe" src="~/images/@baiviet.HinhAnh" width="200" />
                     <div>
                         <br />
-                        <h4 style ="font-family : 'Tahoma' center">
+                        <h4 style ="font-family : 'Times New Roman'center">
                             @baiviet.TieuDe
                         </h4>
                         <p></p>
@@ -28,3 +28,12 @@
         </div>
     }
 </div>
+@*Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount;
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("LaybaiviettheonuocNK", new { page = page }))
+</div>
+<style>
+    .MenuTrang li {
+        display: inline;
+    }
+</style>*@
