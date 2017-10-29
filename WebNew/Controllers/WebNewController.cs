@@ -95,12 +95,12 @@ namespace WebNew.Controllers
         }
         public ActionResult Giaitri()
         {
-            var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 5).Take(1).ToList();
+            var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 6).Take(1).ToList();
             return PartialView(lbv);
         }
         public ActionResult Giaitri1()
         {
-            var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 5).Take(4).ToList();
+            var lbv = data.BaiViets.OrderByDescending(a => a.MaLoaiBV == 6).Take(4).ToList();
             return PartialView(lbv);
         }
     }
